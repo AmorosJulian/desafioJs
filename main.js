@@ -34,16 +34,6 @@ console.log(tareas);
 
 // Pregunto al usuario si quiere eliminar una tarea
 
-// const deleteWork = () => {
-//     let popWork = prompt(`¿Desea eliminar su ultima tarea? \n Ingrese Si o No:`);
-//     if ((popWork.toLowerCase() == "si") && (popWork != "")){
-//         tareas.pop(tareas);
-//        alert(`Ultima tarea eliminada! Gracias por usar la app de tareas`);
-//     } else {
-//         alert(`Ok, gracias por utilizar la app de tareas`);
-//     }
-// }
-
 const deleteWork = () => {
     let spliceWork = prompt(`Desea eliminar una tarea? \Ingrese SI o NO :`);
     if ((spliceWork.toLowerCase() == "si") && (spliceWork != "")) {
