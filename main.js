@@ -61,6 +61,24 @@ deleteWork();
 
 console.log(tareas);
 
+// Funcion para añadir tarea mediante un boton
+
+function clickButtonWork () {
+    const input = document.querySelector("#inputWork");
+    valueInput = input.value;
+    const modal = document.querySelector("#divModal");
+    modal.innerHTML= modal.innerHTML+`<div class="card">
+    <div class="card-body">
+     Recuerda ${valueInput} !
+    </div>
+  </div>`;
+}
+
+
+const buttonWork = document.querySelector("#newWorkButton");
+buttonWork.addEventListener("click", clickButtonWork);
+
+
 
 
 

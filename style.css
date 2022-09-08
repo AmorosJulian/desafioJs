@@ -1,0 +1,31 @@
+/* ABOUT */
+
+.photo-me {
+    border-radius: 50%;
+    width: 23rem;
+    height: 23rem;
+    background-color: beige;
+    background-image: url(./src/multimedia/imagenes/perfil.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
+.color-h2 {
+    color: #7c0b6b;
+    font-size: 2rem !important;  /* preguntar a Juan sobre el important*/
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.img-perfil {
+    width: 100%;
+}
+
+#sectionAbout {
+    margin-bottom: 5rem;
+}
+
+
